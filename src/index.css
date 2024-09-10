@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    @apply bg-custom-gradient; 
+}
+
+h2{
+    padding: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+
+form{
+    font-size: 2em;
+}
+
+li{
+    color: white;
+}
+
+input{
+    color: black;
+    font-size: 1em;
+}
